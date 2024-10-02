@@ -1,1 +1,4 @@
+1. Add 1 or 2 Game : for N==1 alice wins else Bob wins
+2. GCD & XOR : observe we can greedily make all elements equal to 1 using X==1, and then make them equal to k using XOR operation with that particular X, which takes 2 operations at max. But if we have all equal to k then we don't have to make any operations so its equal to 0 , else if all are divisible by k then we have to make 1 operation else if all have same needed xor value then also we need 1 operation.
+3. Triangle count (easy) : basically if we have Bi and Bj, then X would lie from Bj-Bi+1 to Bj-Bi-1, basically we have many ranges like [Li, Ri] like this and we want to find how many values of X happen to posses, so we can store all the L, R pairs in a segment and then technically use union of segments to find the length of this segment.
 
